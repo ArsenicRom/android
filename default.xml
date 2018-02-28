@@ -35,11 +35,11 @@
   </project>
   <project path="packages/apps/Settings" name="arsenicrom/android_packages_apps_Settings" groups="pdk" />
   <project path="frameworks/base" name="arsenicrom/android_frameworks_base" groups="pdk" />
-  <project path="frameworks/opt/telephony" name="arsenicrom/android_frameworks_opt_telephony" remote="github" revision="oc-mr1" >
-  <project path="frameworks/opt/net/ims" name="arsenicrom/android_frameworks_opt_net_ims" remote="github" revision="oc-mr1" >
-  <project path="packages/services/Telephony" name="arsenicrom/android_packages_services_Telephony" remote="github" revision="oc-mr1" >
-  <project path="packages/services/Telecomm" name=" arsenicrom/android_packages_services_Telecomm" remote="github" revision="oc-mr1" >
-  <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" remote="github" revision="oc-mr1" >
+  <project path="frameworks/opt/telephony" name="arsenicrom/android_frameworks_opt_telephony" groups="pdk" />
+  <project path="frameworks/opt/net/ims" name="arsenicrom/android_frameworks_opt_net_ims" groups="pdk" />
+  <project path="packages/services/Telephony" name="arsenicrom/android_packages_services_Telephony" groups="pdk" />
+  <project path="packages/services/Telecomm" name=" arsenicrom/android_packages_services_Telecomm" groups="pdk" />
+  <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk" />
   <!-- END ARSENIC -->
 
   <!-- AOSP Projects -->
