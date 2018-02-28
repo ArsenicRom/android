@@ -33,6 +33,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="arsenicrom/android_build_soong" groups="pdk" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="packages/apps/Settings" name="arsenicrom/android_packages_apps_Settings" groups="pdk" />
   <project path="frameworks/base" name="arsenicrom/android_frameworks_base" groups="pdk" />
   <project path="frameworks/opt/telephony" name="arsenicrom/android_frameworks_opt_telephony" groups="pdk" />
@@ -46,10 +50,6 @@
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
