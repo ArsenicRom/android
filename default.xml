@@ -44,6 +44,7 @@
   <project path="packages/services/Telephony" name="arsenicrom/android_packages_services_Telephony" groups="pdk" />
   <project path="packages/services/Telecomm" name="arsenicrom/android_packages_services_Telecomm" groups="pdk" />
   <project path="packages/apps/PhoneCommon" name="arsenicrom/android_packages_apps_PhoneCommon" groups="pdk" />
+  <project path="packages/apps/WeatherProviders" name="arsenicrom/android_packages_apps_WeatherProviders" groups="pdk" />
   <!-- END ARSENIC -->
 
   <!-- AOSP Projects -->
