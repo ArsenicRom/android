@@ -41,24 +41,26 @@
   <project path="frameworks/base" name="arsenicrom/android_frameworks_base" groups="pdk" />
   <project path="frameworks/opt/telephony" name="arsenicrom/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/net/ims" name="arsenicrom/android_frameworks_opt_net_ims" groups="pdk" />
+  <project path="frameworks/native" name="arsenicrom/android_frameworks_native" groups="pdk" />
   <project path="packages/services/Telephony" name="arsenicrom/android_packages_services_Telephony" groups="pdk" />
   <project path="packages/services/Telecomm" name="arsenicrom/android_packages_services_Telecomm" groups="pdk" />
   <project path="packages/apps/PhoneCommon" name="arsenicrom/android_packages_apps_PhoneCommon" groups="pdk" />
   <project path="packages/apps/WeatherProviders" name="arsenicrom/android_packages_apps_WeatherProviders" groups="pdk" />
   <project path="system/core" name="arsenicrom/android_system_core" groups="pdk" />
-  <project path="frameworks/native" name="arsenicrom/android_frameworks_native" groups="pdk" />
+  <project path="external/sqlite" name="arsenicrom/android_external_sqlite" groups="pdk" />
+  <project path="art" name="arsenicrom/android_art" groups="pdk" />
+  <project path="bionic" name="arsenicrom/android_bionic" groups="pdk" />
+  <project path="dalvik" name="arsenicrom/android_dalvik" groups="pdk" />
+  <project path="libcore" name="arsenicrom/android_libcore" groups="pdk" />
   <!-- END ARSENIC -->
 
   <!-- AOSP Projects -->
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-  <project path="art" name="platform/art" groups="pdk" remote="aosp" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" groups="developers" remote="aosp" />
   <project path="development" name="LineageOS/android_development" groups="developers,pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" remote="aosp" />
@@ -310,7 +312,6 @@
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="aosp" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" remote="aosp" />
   <project path="external/spirv-llvm" name="platform/external/spirv-llvm" groups="pdk" remote="aosp" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/strace" name="platform/external/strace" groups="pdk" remote="aosp" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk" remote="aosp" />
@@ -418,7 +419,6 @@
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />
   <project path="kernel/tests" name="kernel/tests" remote="aosp" />
-  <project path="libcore" name="platform/libcore" groups="pdk" remote="aosp" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="LineageOS/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
