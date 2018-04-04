@@ -44,8 +44,8 @@
   <project path="frameworks/native" name="arsenicrom/android_frameworks_native" groups="pdk" />
   <project path="packages/services/Telephony" name="arsenicrom/android_packages_services_Telephony" groups="pdk" />
   <project path="packages/services/Telecomm" name="arsenicrom/android_packages_services_Telecomm" groups="pdk" />
-  <project path="packages/services/Telecomm" name="arsenicrom/android_packages_services_OmniJaws" groups="pdk" />
-  <project path="packages/apps/PhoneCommon" name="arsenicrom/android_packages_apps_OmniStyle" groups="pdk" />
+  <project path="packages/services/OmniJaws" name="arsenicrom/android_packages_services_OmniJaws" groups="pdk" />
+  <project path="packages/apps/OmniStyle" name="arsenicrom/android_packages_apps_OmniStyle" groups="pdk" />
   <project path="packages/apps/PhoneCommon" name="arsenicrom/android_packages_apps_PhoneCommon" groups="pdk" />
   <project path="packages/apps/WeatherProviders" name="arsenicrom/android_packages_apps_WeatherProviders" groups="pdk" />
   <project path="system/core" name="arsenicrom/android_system_core" groups="pdk" />
