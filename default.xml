@@ -52,6 +52,7 @@
   <project path="system/core" name="arsenicrom/android_system_core" groups="pdk" />
   <project path="system/sepolicy" name="arsenicrom/android_system_sepolicy" groups="pdk" />
   <project path="external/sqlite" name="arsenicrom/android_external_sqlite" groups="pdk" />
+  <project path="external/DUtils" name="arsenicrom/android_external_DUtils" groups="pdk" />
   <project path="art" name="arsenicrom/android_art" groups="pdk" />
   <project path="bionic" name="arsenicrom/android_bionic" groups="pdk" />
   <project path="dalvik" name="arsenicrom/android_dalvik" groups="pdk" />
