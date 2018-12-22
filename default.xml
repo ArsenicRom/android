@@ -47,7 +47,7 @@
   <project path="frameworks/av" name="arsenicrom/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="arsenicrom/android_frameworks_base" groups="pdk" />
   <project path="frameworks/native" name="arsenicrom/android_frameworks_native" groups="pdk" />
-  <project path="frameworks/opt/net/ims" name="arsenicrom/frameworks_opt_net_ims" groups="pdk" />
+  <project path="frameworks/opt/net/ims" name="arsenicrom/android_frameworks_opt_net_ims" groups="pdk" />
   <project path="frameworks/opt/telephony" name="arsenicrom/android_frameworks_opt_telephony" groups="pdk" />
 
   <project path="packages/apps/ArsenicSettings" name="arsenicrom/android_packages_apps_ArsenicSettings" groups="pdk" />
