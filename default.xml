@@ -50,6 +50,8 @@
   <project path="frameworks/opt/net/ims" name="arsenicrom/android_frameworks_opt_net_ims" groups="pdk" />
   <project path="frameworks/opt/telephony" name="arsenicrom/android_frameworks_opt_telephony" groups="pdk" />
 
+  <project path="hardware/interfaces" name="arsenicrom/android_hardware_interfaces" groups="pdk" />
+  
   <project path="packages/apps/ArsenicSettings" name="arsenicrom/android_packages_apps_ArsenicSettings" groups="pdk" />
   <project path="packages/apps/Settings" name="arsenicrom/android_packages_apps_Settings" groups="pdk" />
 
@@ -468,7 +470,6 @@
   <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel,pdk" remote="aosp" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
