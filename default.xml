@@ -42,7 +42,7 @@
   <project path="dalvik" name="arsenicrom/android_dalvik" groups="pdk" />
   <project path="libcore" name="arsenicrom/android_libcore" groups="pdk" />
 
-  <project path="external/google" name="android_external_google" groups="pdk" />
+  <project path="external/google" name="arsenicrom/android_external_google" groups="pdk" />
   <project path="external/sqlite" name="arsenicrom/android_external_sqlite" groups="pdk" />
 
   <project path="frameworks/av" name="arsenicrom/android_frameworks_av" groups="pdk" />
