@@ -4,6 +4,7 @@
   <!-- BEGIN ARSENIC -->
   <project path="android" name="arsenicrom/android" />
   <project path="vendor/lineage" name="arsenicrom/android_vendor_lineage" />
+  <project path="vendor/support" name="arsenicrom/android_vendor_support" />
   <project path="device/lineage/sepolicy" name="arsenicrom/android_device_lineage_sepolicy" />
   <!-- END ARSENIC -->
   
